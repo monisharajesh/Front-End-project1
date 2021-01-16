@@ -1,0 +1,333 @@
+body{
+    height: 8981px;
+    font-family: 'Poppins',Arial, sans-serif;
+}
+/*common styles*/
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+ .primary-btn{
+    background: #106eea;
+    display: inline-block;
+    padding: 12px 22px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+ }
+ .secondary-btn{
+     color: #000;
+     text-decoration: none;
+ }
+ .secondary-btn i{
+    font-size: 16px;
+    color: #106eea;
+    padding-right: 5px;
+ }
+ .section-title{
+     text-align: center;
+     padding: 60px 0 0;
+
+ }
+ .section-title h4{
+     padding-bottom: 20px;
+ }
+ .section-title h4 span{
+     background: #444444;
+     border-radius: 14px;
+     padding: 4px 12px;
+     display: inline-block;
+     color: #106eea;
+     font-size: 13px;
+font-weight: 600;
+padding-bottom: 20px;
+ }
+ .section-title h2{
+     font-size: 36px;
+     color: #444444;
+     margin-bottom: 20px;
+ }
+ .section-title h2 span{
+     color: #106eea;
+ }
+ .section-title p{
+     max-width: 500px;
+     margin: auto;
+     line-height: 22px;
+ }
+
+/*QUICK LINKS*/
+#quick-links{
+    background-color: #106EEA;
+    height: 40px;
+}
+#quick-links .f-container{
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 13px;
+}
+#quick-links .f-item{
+    padding: 10px 0px;
+}
+#quick-links .f-item i{
+    color: #fff;
+    padding: 0px 9px;
+    font-size: 14px;
+}
+#quick-links .f-item a{
+    padding: 0px 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+#header{
+    height: 93px;
+}
+#header .f-container{
+    display: flex;
+    justify-content: space-between; 
+}
+#header .f-container .f-item{
+
+}
+
+#banner{
+background-color: #fff;
+       background: url('../css/images/hero-bg.jpg');
+       background-size: cover;
+       position: relative;
+}
+#banner .white-overlay{
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+#banner .f-container{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+#banner h1{
+    padding-top: 224px;
+     font-size: 45px;
+     padding-bottom: 12px;
+}
+#banner h1 span{
+    color: #106eea;
+}
+#banner p{
+    padding-bottom: 30px;
+font-size: 22px;
+color: #737A7D;
+}
+#banner .cta-wrapper{}
+#banner .cta-wrapper a{}
+#banner .cta-wrapper a.primary-btn{
+    margin-right: 10px;
+}
+#banner .cta-wrapper a.secondary-btn{}
+
+#highlights{
+    padding: 58px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+}
+#highlights .f-container{
+    display: flex;
+    justify-content: space-around; 
+      
+}
+#highlights .f-item{
+    background-color: white;
+    flex-basis: 20%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: #d5d5d5 0px 0px 15px;
+    border-radius: 8px;
+}
+
+/*ABOUT*/
+#about{
+    background: url('../css/images/about.jpg');
+    box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+ flex-basis: 50%;
+    }  
+    #about .f-container{
+        display: flex;
+        color: black;
+    }
+    #about .f-item{
+        color: #444444;
+    } 
+
+#skills{
+    background-color:#fff;
+    }
+
+#statistics{
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    background-color: #fff;
+}
+    #statistics .f-container{
+        display: flex;
+        justify-content: space-around;
+         }
+    #statistics .f-item{
+        font-size: 24px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: #d5d5d5 0px 0px 15px;
+    }
+    
+flex-basis: 20%;
+         }
+
+#clients{
+    background-color: #ff0000a3;
+    height: 100px;
+    }
+
+#service{
+    background: #fff;
+    
+}
+#services .section-title{
+
+}
+#services .section-content .f-container{
+    
+}
+#services .section-content .f-item{
+
+}
+#service .f-container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 60px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 400em;
+}
+#service. .f-item{
+    text-align: center;
+    flex-basis: 50%;
+    justify-items: center;
+}
+#testimonial{
+    
+}
+
+#portfolio{
+   
+    }
+
+#team{
+    
+}
+
+#pricing{
+    
+}
+#faq{
+    
+}
+
+#contact{
+    
+    }
+#contact .section-title{
+    
+}
+#contact .section-content{}
+#contact .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .f-item{
+    text-align: center;
+}
+#contact .f-item.size-a{
+    flex-basis: 50%;
+}
+#contact .f-item.size-z{
+    flex-basis: 25%;
+}
+#contact {}
+#contact{}
+
+#news-letter{
+    
+    }
+
+<!-----footer---->
+#footer{
+    background-color: #4b008273;
+}
+#footer .f-container{
+    display: flex;
+    padding: 64px 0px;
+}
+#footer .f-container .f-item{
+    flex-basis: 25%;
+}
+#footer .f-container .f-item ul{
+    list-style-type: none;
+}
+#footer .size-a ul li{
+    font-size: 16px;
+    line-height: 23px;
+}
+#footer .size-b ul li{
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+#footer h1{
+    font-size: 24px;
+    padding-bottom: 9px;
+}
+#footer h2{
+    font-size: 18px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+#footer p{
+    padding: 9px 0px 29px 0px;
+    line-height: 25px;
+}
+#footer i{
+    padding-right: 6px;
+}
+
+<!----Legal---->
+
+#legal{ 
+    background-color: #ffa50073;
+   
+}
+#legal .f-container{
+    display: flex;
+    justify-content: space-between  ;
+}
+#legal .f-item{
+    padding: 35px 0px;
+}
+   }
